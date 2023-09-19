@@ -1,0 +1,121 @@
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+}
+.section-bg2{
+    box-shadow: inset 0 -80px rgb(255, 255, 255), inset 0 80px rgb(255, 255, 255);
+    
+    background-color: black;
+}
+
+.tecnologia{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.tecnologia h2{
+    margin-top: 10px;
+    font-size: 4rem;
+}
+
+.tecnologia p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #b2b2b2;
+}
+
+.tecnologia span{
+    font-size: 1.5rem;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
+
+.tecnologia a{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 10px 0px;
+    color: rgb(222, 186, 4);
+    border-bottom: solid 4px ;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+    display: block;
+}
+
+.flex-icon{
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+
+.flex-icon h3{
+    margin: 10px 0px;
+}
+
+.flex-icon p{
+    margin-top: 0px;
+    color: #b2b2b2;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.flex-icon img{
+    height: 13%;
+    margin: 0px;
+}
+
+@media (max-width: 500px){
+    .image{
+        display: none;
+        width: 100%;
+    }
+
+    .section-grid{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecnologia{
+        
+    }
+
+    .tecnologia h2{
+        font-size: 1.8rem;
+    }
+
+    .tecnologia span{
+        font: 0.5
+        rem;
+    }
+
+    .tecnologia a {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    
+    .image{
+        display: none;
+    }
+
+    .section-grid{
+        justify-content: center;
+        display: flex;
+
+    }
+}
+

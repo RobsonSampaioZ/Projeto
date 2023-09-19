@@ -1,0 +1,83 @@
+.section-bg h2{
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 4rem;
+}
+
+.section-bg{
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.section-flex h3{
+  font-size: 2rem;
+  color: black;
+  margin: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.section-flex p{
+  color: black;
+  margin: 10px 0px 0px 15px;
+
+}
+
+.section-flex{
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-flex a{
+  
+}
+
+.section-flex h3::before{
+  content: '';
+  height: 8px;
+  width: 10px;
+  display: inline-block;
+  background-color: #ffbb00;
+  margin-bottom: 7px;
+  margin-right: 5px;
+  
+}
+
+.section-flex h3:hover::before{
+  content: '';
+  width: 25px;
+  display: inline-block;
+  background-color: #ffbb00;
+  margin-bottom: 7px;
+  transition: 0.3s;
+}
+
+@media (max-width:500px){
+    .section-flex {
+      gap: 10px;
+    }
+    .section-flex h3{
+      font-size: 0.8rem;
+      justify-content: center;
+      padding: 5px 0px;
+      background-color: #ffbb00;
+      border-radius: 3px;
+      text-align: center;
+    }
+    .section-bg h2{
+      font-size: 3rem;
+    }
+    .section-flex h3:hover::before{
+      display: none;
+    }
+    .section-flex h3::before{
+      display: none;
+    }
+}
+
