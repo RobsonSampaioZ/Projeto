@@ -86,19 +86,12 @@
     .section-grid{
         display: flex;
         justify-content: center;
-    }
-
-    .tecnologia{
-        
+        gap: 0px;
     }
 
     .tecnologia h2{
         font-size: 1.8rem;
-    }
-
-    .tecnologia span{
-        font: 0.5
-        rem;
+        margin-top: 30px;
     }
 
     .tecnologia a {

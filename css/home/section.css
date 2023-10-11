@@ -46,7 +46,7 @@
   background-color: #ffbb00;
   margin-bottom: 7px;
   margin-right: 5px;
-  
+  transition: 0.3s;
 }
 
 .section-flex h3:hover::before{
@@ -55,23 +55,24 @@
   display: inline-block;
   background-color: #ffbb00;
   margin-bottom: 7px;
-  transition: 0.3s;
 }
 
 @media (max-width:500px){
     .section-flex {
+      flex-direction: column;
       gap: 10px;
     }
     .section-flex h3{
       font-size: 0.8rem;
       justify-content: center;
-      padding: 5px 0px;
+      padding: 10px 0px;
       background-color: #ffbb00;
       border-radius: 3px;
       text-align: center;
     }
     .section-bg h2{
       font-size: 3rem;
+      padding-bottom: 30px;
     }
     .section-flex h3:hover::before{
       display: none;
@@ -80,4 +81,3 @@
       display: none;
     }
 }
-

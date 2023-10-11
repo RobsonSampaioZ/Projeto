@@ -1,0 +1,37 @@
+.termos-main-bg{
+    background-color: #111111;
+}
+
+.termos-container{
+    padding: 70px 30px;
+}
+
+
+.termos-container h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.termos-container p{
+    font-size: 1.25rem;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
+
+.politicas{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.politicas h2{
+    margin-bottom: 25px;
+}
+
+.politicas p{
+    margin-bottom: 25px;
+    max-width: 75ch;
+}
+
+.margin{
+    margin-top: 50px;
+}

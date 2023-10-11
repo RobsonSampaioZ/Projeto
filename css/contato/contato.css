@@ -1,0 +1,150 @@
+.contato-container,
+.contato-formulario{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contato-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.contatos-bg{
+    padding: 60px;
+    background: url(/img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+    background-color: #000000;
+    
+}
+
+.contatos-bg h2{
+    color: white;
+    margin-bottom: 60px;
+}
+
+.contato-endereco{
+    background: url(/img/icones/local.svg) no-repeat -2px -2px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contato-endereco li{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+
+.contato-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-contato a{
+    color: white;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.contato-contato :nth-child(1){
+    background: url(/img/icones/email.svg) no-repeat -2px -2px;
+    margin-top: 20px;
+}
+
+.contato-contato :nth-child(2){
+    margin-bottom: 30px;
+}
+
+.contato-contato :nth-child(3){
+    background: url(/img/icones/telefone.svg) no-repeat -2px -2px;
+    margin-bottom: 30px;
+}
+
+.contato-redes{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+    gap: 30px;
+}
+
+/* */
+
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.form-grid label{
+    display: block;
+    margin-bottom: 5px;
+}   
+
+.form-grid input, 
+.form-grid textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    background: white;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-grid input[type="text"]:focus,
+.form-grid input[type="email"]:focus,
+.form-grid textarea:focus {
+  outline: none;
+  border-color: white;
+  background: white;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.form-grid .col-2{
+    grid-column: span 2;
+}
+
+.form-grid{
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+.botao-contato{
+    padding: 16px 32px;
+    display: inline-block;
+    max-width: max-content;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color:#f2a50c;
+    border-radius: 4px;
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+
+.contato-bg{
+    background-color: #111111;
+}
+
+#contato {
+    background: linear-gradient(#111111 550px, white 0%);
+}
+
+.contatos-container h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.contatos-container p{
+    font-size: 1.25rem;
+    color: #b2b2b2;
+    text-transform: uppercase;
+}
+
+.contatos-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+

@@ -1,0 +1,55 @@
+
+.lojas-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.lojas-grid h2{
+    padding-bottom: 50px;
+    font-size: 4rem;
+}
+
+.lojas-grid h2{
+    grid-column: 1/-1;
+}
+
+.lojas-local-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.lojas-local-grid div{
+    padding: 10px;
+}
+
+.lojas-local-grid div p{
+    margin-bottom: 10px;
+}
+.lojas-horario{
+    display: flex;
+    align-items: center;
+}
+.lojas-horario img{
+    padding-right: 10px;
+    
+}
+
+.lojas-grid h3{
+    grid-column: 1/-1;
+    font-size: 2rem;
+}
+
+.lojas-local-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.lojas-local-flex a {
+    margin-bottom: 10px;
+    color: #595959;
+}

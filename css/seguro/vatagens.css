@@ -1,0 +1,35 @@
+.seguro-container{
+    padding-bottom: 100px;
+}
+
+.seguro-container h2{
+    font-size: 4rem;
+    color: white;
+    padding-top: 100px;
+}
+
+.vantagens-bg{
+    background: #000000 url(/img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
+}
+
+.vantagens-seguro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.vantagens-seguro span{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.vantagens-seguro p{
+    color: #b2b2b2;
+    font-size: 1rem;
+}
+
+.vantagens-seguro li {
+    display: grid;
+    gap: 10px;
+}

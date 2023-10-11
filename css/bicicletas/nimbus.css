@@ -1,0 +1,124 @@
+.nimbus-bg{
+    background-color: #111111;
+}
+
+.nimbus-titulo{
+    grid-column: 1/-1;
+    margin-top: 50px;
+}
+
+.nimbus-titulo span{
+    font-size: 2rem;
+    color: #b2b2b2;
+}
+
+.nimbus-titulo h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.bicicleta-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.bicicleta-imagens img:first-child {
+    cursor: initial;
+    min-width: 100%;
+}
+
+.bicicleta-imagens img {
+    cursor: pointer;
+    flex: 1;
+    min-width: 200px;
+}
+
+.nimbus-main-grid h2{
+    color: white;
+}
+
+.nimbus-main-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.comprar-grid{
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 7px 10px;
+    align-items: center;
+    justify-items: start;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+
+.comprar-grid span{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 10px;
+    padding: 4px 8px;
+    justify-items: center;
+    font-size: 0.75rem;
+    border-radius: 4px;
+}
+
+.comprar-grid a{
+    grid-row: span 2;
+}
+.comprar-grid h3{
+    color: white;
+}
+
+.nimbus-informacoes-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.nimbus-informacoes{
+    display: grid;
+    gap: 10px;
+    color: white;
+}
+
+.nimbus-informacoes img{
+    width: 24px;
+}
+
+.nimbus-informacoes h3{
+    font-size: 1.15rem;
+}
+
+.nimbus-informacoes p{
+    font-size: 0.90rem;
+}
+
+.nimbus-ficha-tecnica{
+    background-color: black;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.nimbus-ficha{
+    color: white;
+}
+
+.ficha{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

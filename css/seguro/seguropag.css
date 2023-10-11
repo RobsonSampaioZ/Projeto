@@ -1,0 +1,28 @@
+.cabecalho-seguro p{ 
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #b2b2b2;
+    margin: 0;
+    padding-top: 70px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.cabecalho-seguro h2{
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+
+.cabecalho-seguro{
+    background:url(/img/dec/top-right.svg) no-repeat top 60px right 20px;
+}
+
+.seguro-bg{
+    background: #111111 url(/img/dec/bottom-left.svg) no-repeat
+    bottom 40px left 20px;
+}
+
+
+
