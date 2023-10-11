@@ -94,7 +94,7 @@
 }
 
 .prata-grid li::before{
-    background: url(/img/icones/lista.svg) no-repeat;
+    background: url(./img/icones/lista.svg) no-repeat;
     content: '';
     position: absolute;
     height: 9px;

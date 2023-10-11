@@ -57,7 +57,7 @@
 
 .seta::after{
     content: '';
-    background: url(/img/icones/seta.svg) no-repeat;
+    background: url(./img/icones/seta.svg) no-repeat;
     display: inline-block;
     height: 18px;
     width: 18px;

@@ -17,7 +17,7 @@
     align-items: center;
     overflow: hidden;
     
-    background: url(../../img/dec/top-left-p.svg) no-repeat top 40px left 40px, url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
+    background: url(./img/dec/top-left-p.svg) no-repeat top 40px left 40px, url(./img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
 }
 
 .depoimento-conteudo p::before{

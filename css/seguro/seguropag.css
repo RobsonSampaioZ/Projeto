@@ -16,11 +16,11 @@
 }
 
 .cabecalho-seguro{
-    background:url(/img/dec/top-right.svg) no-repeat top 60px right 20px;
+    background:url(./img/dec/top-right.svg) no-repeat top 60px right 20px;
 }
 
 .seguro-bg{
-    background: #111111 url(/img/dec/bottom-left.svg) no-repeat
+    background: #111111 url(./img/dec/bottom-left.svg) no-repeat
     bottom 40px left 20px;
 }
 
